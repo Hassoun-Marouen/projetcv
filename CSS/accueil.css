@@ -1,0 +1,164 @@
+body{
+    background-image:url("https://media.istockphoto.com/id/905432958/photo/nautilus-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=BQYc-ZPID1kYhHN-7_DWdo4LByO2_Av24ObTLk7T1OY=");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+.word h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+    align-items: center;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+.div1{
+    border-style: solid;
+    background-color: aqua;
+    
+}
+
+
+#photoprofile{
+    
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    
+    
+    
+}
+.photo{
+    
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    
+}
+#titre{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.links{
+    
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+a:visited{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(0, 255, 115);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+footer{
+    position: fixed;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 8, 112);
+    
+
+    
+}
+.footer{
+    width: 300px;
+    display: flex;
+    font-size: large;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size: medium;
+}
+#p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+}
+#fcb{
+    color:white ;
+    
+}
+#p4{
+    color: rgb(8, 8, 8);
+    font-size: x-large;
+    align-items: center;
+    align-content: center;
+    font-family: monospace ;
+    
+}
+.p4{
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+}
+#p1{
+    color: rgb(8, 8, 8);
+    font-size: x-large;
+    align-items: center;
+    align-content: center;
+    font-family: monospace;
+
+}

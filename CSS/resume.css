@@ -1,0 +1,27 @@
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .btn:hover {
+    background-color: rgb(16, 202, 31);
+  }  
+  #bac{
+    position: relative;
+    left: 10px;
+    width: 80%;
+    
+  }
